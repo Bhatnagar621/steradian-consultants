@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.main{
+  background-color: white;
+}
+
+.home-page {
+  margin: 150px 150px auto 150px; 
+  display: inline-block;  /* Inline level with block-like characteristics */
+  vertical-align: top; 
+}
+
+.home-page img {
+  width: 100%;
+  height: auto;  /* Maintain aspect ratio */
+}
+
+.overlay-text {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-weight: normal;
+  align-self: center;
+  text-align: center;  
+  font-size: 35px;  
+  white-space: nowrap;  
+  #name {
+    margin: 10px;
+    color: #101010;
+  }
+  #title {
+    margin: 10px;
+    color: #757575;
+  }
+}
+
+.instagram-galary {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;  /* Enable horizontal scrolling */
+  white-space: nowrap;
+  
+  insta-tag{
+    
+    padding: 25px;
+    display: inline-block; 
+  }
+}
+
